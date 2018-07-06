@@ -1,0 +1,31 @@
+{
+  "name": "alexandria",
+  "version": "1.0.0",
+  "description": "The Decentralized Library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GLNRO/alexandria.git"
+  },
+  "author": "Lauren Gallinaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GLNRO/alexandria/issues"
+  },
+  "homepage": "https://github.com/GLNRO/alexandria#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1"
+  },
+  "devDependencies": {
+    "http-errors": "^1.6.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5",
+    "path": "^0.12.7"
+  }
+}
