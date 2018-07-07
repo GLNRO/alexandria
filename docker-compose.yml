@@ -1,0 +1,10 @@
+version: '2'
+services:
+  server:
+    container_name: alexandria-server
+    build:
+      context: ./server/
+    ports:
+      - "3003:3003"
+    volumes:
+      - './server:/usr/app/'
