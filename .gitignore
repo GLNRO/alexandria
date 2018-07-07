@@ -1,1 +1,12 @@
 node_modules/
+books/
+
+# ipfs
+ipfs/ipfs-docker-data/blocks
+ipfs/ipfs-docker-data/datastore
+ipfs/ipfs-docker-data/keystore
+ipfs/ipfs-docker-data/api
+ipfs/ipfs-docker-data/config
+ipfs/ipfs-docker-data/datastore_spec
+ipfs/ipfs-docker-data/repo.lock
+ipfs/ipfs-docker-data/version
