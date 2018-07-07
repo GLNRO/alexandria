@@ -8,3 +8,15 @@ services:
       - "3003:3003"
     volumes:
       - './server:/usr/app/'
+  ipfs:
+    container_name: alexandria-ipfs
+    image: jbenet/go-ipfs:latest
+    build:
+      context: ./ipfs/
+    ports:
+      - "8080:8080"
+      - "4001:4001"
+      - "127.0.0.1:5001:5001"
+    volumes:
+      - './ipfs-docker-staging:/export'
+      - './ipfs-docker-data:/data/ipfs'
