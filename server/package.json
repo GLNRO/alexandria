@@ -1,0 +1,22 @@
+{
+  "name": "alexandria-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lauren Gallinaro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "http-errors": "^1.6.3",
+    "json-loader": "^0.5.7",
+    "mongodb": "^3.1.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5",
+    "path": "^0.12.7"
+  }
+}
