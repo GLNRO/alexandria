@@ -18,5 +18,5 @@ services:
       - "4001:4001"
       - "127.0.0.1:5001:5001"
     volumes:
-      - './ipfs-docker-staging:/export'
-      - './ipfs-docker-data:/data/ipfs'
+      - './ipfs/ipfs-docker-staging:/export'
+      - './ipfs/ipfs-docker-data:/data/ipfs'
